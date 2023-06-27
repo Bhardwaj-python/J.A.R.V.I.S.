@@ -1,0 +1,7 @@
+{
+    "tag":"open",
+    "patterns":["open", "visit", "start", "launch"
+    ],
+    "responses":["opening"
+    ]
+}
