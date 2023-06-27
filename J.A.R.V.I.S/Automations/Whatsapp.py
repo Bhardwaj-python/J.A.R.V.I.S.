@@ -10,14 +10,10 @@ def OpenWhatsapp():
 def SendWhatsappMessage():
     Speak("What is the message ?")
     msg = Listen()
-    Speak("to whom should I send the message, to your dad, to your mom, to your aunt, to Dishant, Abin or anyone else ?")
+    Speak("to whom should I send the message, to your dad, your mom oranyone else ?")
 
-    dad = "+919868587909"
-    mom = "+918586990417"
-    aunt = "+917032199287"
-    dishant = "+919811616330"
-    abin = "+918373981667"
-    
+    dad = "your_number_here"
+    mom = "your_number_here"
 
     while True:
         query = Listen()
